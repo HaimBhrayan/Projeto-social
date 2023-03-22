@@ -22,7 +22,7 @@ main{
 section#Telefone{
     position: absolute;
     background: url(../imagens/frame-iphone.png) no-repeat;
-    top: 50vh;
+    top: 45vh;
     left: 40vw;
     transform: translate(-50%, -50%);
     width: 311px;   
@@ -40,8 +40,8 @@ iframe#tela{
 }
 #Redes img{
     height: 50px;
+    margin-top:10px;
     border-radius: 50%;
-    margin-bottom: 10px;
     margin-right: 5px;
     box-sizing: border-box;
 }
@@ -52,5 +52,5 @@ iframe#tela{
     box-shadow: 10px 5px 10px black;
 }
 #Redes{
-    text-align: right;
+    text-align:right;
 }
