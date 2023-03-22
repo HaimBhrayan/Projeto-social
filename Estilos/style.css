@@ -23,7 +23,7 @@ section#Telefone{
     position: absolute;
     background: url(../imagens/frame-iphone.png) no-repeat;
     top: 50vh;
-    left: 50vw;
+    left: 40vw;
     transform: translate(-50%, -50%);
     width: 311px;   
     height: 627px;
