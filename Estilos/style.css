@@ -1,56 +1,56 @@
 @charset "UTF-8";
 
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
-body, html{
-    height:100vh;
-    width: 100vw;
-    font-family: Arial, Helvetica, sans-serif;
-
+body,
+html {
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    background: url(../imagens/Fundo-res.jpg) no-repeat left center;
-    background-size: cover;
-    background-attachment: fixed;
+body {
+  background: url(../imagens/Fundo-res.jpg) no-repeat left center;
+  background-size: cover;
+  background-attachment: fixed;
 }
-main{
-    position: relative;
-    height: 100vh;
+main {
+  position: relative;
+  height: 100vh;
 }
-section#Telefone{
-    position: absolute;
-    background: url(../imagens/frame-iphone.png) no-repeat;
-    top: 45vh;
-    left: 40vw;
-    transform: translate(-50%, -50%);
-    width: 311px;   
-    height: 627px;
+section#Telefone {
+  position: absolute;
+  background: url(../imagens/frame-iphone.png) no-repeat;
+  margin-top: 20px;
+  top: 45vh;
+  left: 40vw;
+  transform: translate(-50%, -50%);
+  width: 311px;
+  height: 627px;
 }
-iframe#tela{
-    position: relative;
-    top: 79px;
-    left: 20px;
-    width: 270px;
-    height: 473px;
-    box-shadow: inset 3px black;
-    border-radius: 1px;
-    
+iframe#tela {
+  position: relative;
+  top: 79px;
+  left: 20px;
+  width: 270px;
+  height: 473px;
+  box-shadow: inset 3px black;
+  border-radius: 1px;
 }
-#Redes img{
-    height: 50px;
-    margin-top:10px;
-    border-radius: 50%;
-    margin-right: 5px;
-    box-sizing: border-box;
+#Redes img {
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  box-sizing: border-box;
 }
-#Redes img:hover{
-    margin-right: 10px;
-    border: 2px solid white;
-    transition:  0.3s;
-    box-shadow: 10px 5px 10px black;
+#Redes img:hover {
+  margin-right: 10px;
+  border: 2px solid white;
+  transition: 0.3s;
+  box-shadow: 10px 5px 10px black;
 }
-#Redes{
-    text-align:right;
+#Redes {
+  text-align: right;
 }
